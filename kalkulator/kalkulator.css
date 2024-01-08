@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.work {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    background-color: black;
+    height: 75vh;
+    width: 40vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+
+.screen {
+    position: relative;
+    width: 35vw;
+    height: 10vh;
+    background-color: blue;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+}
+
+.buttons {
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 35vw;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.normal {
+    height: 5vh;
+    width: 4.5vw;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.blue {
+    border: 3px solid blue;
+}
+
+.red {
+    border: 3px solid red;
+}
+
+.yellow {
+    height: 5vh;
+    width: 13.5vw;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 3px solid yellow;
+}
+
+.long {
+    height: 5vh;
+    width: 4.5vw;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    border: 3px solid green;
+}
+
+.last-green {
+    border: 3px solid green;
+}
+
+.left {
+    width: 50%;
+    height: 40vh;
+    margin-top: 3vh;
+}
+
+.others {
+    width: 50%;
+}
+
+.purple {
+    border: 3px solid purple;
+    margin-bottom: 2vh;
+    font-size: 2vh;
+}
+
+button {
+    width: 45%;
+    height: 3vh;
+    background-color: black;
+    color: white;
+}
+
+.last {
+    display: flex;
+    flex-grow: 1;
+}
+
+.first {
+    margin-top: 3vh;
+}
+
+.history {
+    color: white;
+    font-size: 20px;
+}
